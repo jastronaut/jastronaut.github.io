@@ -1,0 +1,60 @@
+body {
+	background-image: url(resources/wall.jpg);
+	font-family: 'Inconsolata';
+	padding: 1% 3% 1% 3%;
+}
+
+a, a:link, a:visited {
+	transition-property: color, background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	color: #c59799;
+}
+
+a:hover {
+	transition-property: color, background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	background-color: #c59799;
+	color: #e8e6df;
+}
+
+img {
+	border: 2px solid #c59799;
+}
+
+.littleBoxes {
+	display: inline-block;
+	overflow: hidden;
+	color: rgba(232,230,223,0.7);
+	text-align: left;
+	background-color: rgba(45,45,45,0.9);
+	padding: 5px 20px 10px 20px;
+	margin: 10px;
+}
+
+.littleBoxes:hover {
+	box-shadow: 3px 3px 2px rgba(0,0,0,0.7);
+}
+
+h1 {
+	color: rgba(45,45,45,0.9);
+	text-shadow: 2px 2px #c59799;
+	line-height: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+#aboutMe {
+	width: 50%;
+}
+
+#findMe {
+	float: inline-start;
+}
+
+#iLike {
+	float: left;
+}
